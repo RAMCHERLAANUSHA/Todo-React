@@ -1,0 +1,20 @@
+.todoForm{
+    background-color: whitesmoke;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.todoInput{
+    width: 400px;
+    border-radius: 16px;
+    height: 30px;
+}
+.todoSubmit{
+    background-color: yellow;
+    border-radius: 16px;
+    margin: 10px;
+    height: 30px;
+}

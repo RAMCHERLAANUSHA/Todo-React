@@ -1,0 +1,14 @@
+.footer{
+    bottom: 0;
+    position: fixed;
+    background-color: yellow;
+    /* height: 40px; */
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.completed{
+    margin: 50px;
+}

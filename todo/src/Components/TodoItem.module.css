@@ -26,3 +26,47 @@
 .completed{
     text-decoration: line-through;
 }
+
+@media screen and (max-width: 600px) {
+    .item {
+        width: 75%;
+        font-size: 16px;
+    }
+    .itemName {
+        padding: 8px;
+    }
+    .deleteButton {
+        font-size: 10px;
+        padding: 6px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .item {
+        width: 75%;
+        font-size: 20px;
+    }
+    .itemName {
+        padding: 12px;
+    }
+    .deleteButton {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .item {
+        width: 70%;
+        font-size: 22px;
+    }
+    .itemName {
+        padding: 14px;
+    }
+    .deleteButton {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+

@@ -2,13 +2,55 @@
     bottom: 0;
     position: fixed;
     background-color: yellow;
-    /* height: 40px; */
     width: 100%;
     font-size: large;
     font-weight: bold;
     text-align: center;
     padding: 10px;
+    overflow: hidden;
 }
 .completed{
     margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: small;
+        padding: 8px;
+        width: 100%;
+    }
+    .completed {
+        margin: 0px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .footer {
+        font-size: large;
+        padding: 12px;
+    }
+    .completed {
+        margin: 30px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        font-size: larger;
+        padding: 14px;
+    }
+    .completed {
+        margin: 40px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .footer {
+        font-size: large;
+        padding: 16px;
+    }
+    .completed {
+        margin: 50px;
+    }
 }

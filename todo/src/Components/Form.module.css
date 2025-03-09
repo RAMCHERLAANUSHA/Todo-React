@@ -6,6 +6,9 @@
     width: 500px;
     margin-top: 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;  
+    align-items: center; 
+    gap: 10px;
 }
 .todoInput{
     width: 400px;
@@ -18,3 +21,51 @@
     margin: 10px;
     height: 30px;
 }
+@media screen and (max-width: 600px) {
+    .todoForm {
+        width: 87%;
+        padding: 10px;
+        margin-left: 2.5%;
+    }
+    .todoInput {
+        width: 70%;
+        height: 28px;
+    }
+    .todoSubmit {
+        width: 20%;
+        height: 28px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .todoForm {
+        width: 70%;
+        padding: 15px;
+    }
+    .todoInput {
+        width: 70%;
+        height: 34px;
+    }
+    .todoSubmit {
+        width: 20%;
+        height: 34px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .todoForm {
+        width: 60%;
+        padding: 24px;
+    }
+    .todoInput {
+        width: 70%;
+        height: 36px;
+    }
+    .todoSubmit {
+        width: 20%;
+        height: 36px;
+    }
+}
+
